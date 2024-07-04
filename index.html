@@ -11,7 +11,7 @@
     <title>Portfolio</title>
 </head>
 <body>
-
+<!--  The Navbar -->
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark" > 
   <div class="container-fluid" >
     <span class ="navbar-text">My Portfolio</span>
@@ -34,17 +34,21 @@
     </ul>
   </div>
 </nav>
+
+<!-- Heading  -->
 <div class="container-fluid p-5 bg-danger text-white text-center">
   <h1>Welcome to My Portfolio</h1>
   <p>Showcasing my work and projects</p> 
 </div>
   
-<div class="container mt-5">
+<!-- Picture and About me -->
+
+<div class="container-fluid mt-5 ">
   <div class="row">
     <div class="col-sm-4">
-        <img src="./img/newyork.jpg" class="rounded-circle float-start" width="200" height="200"> 
+        <img src="./img/newyork.jpg" alt="Picture of NewYork" class="rounded-circle float-start" width="200" height="200"> 
     </div>
-    <div class="col-sm-4  ms-auto">
+    <div class="col-sm-8  ms-auto">
       <h3>About me</h3>
       <p class= "mt-3 mb-4 pb-2 text-start ">
         Hello! I'm [Your Name], a [Your Profession] with a passion for [Your Passion]. I have experience in [Your
@@ -53,35 +57,52 @@
       </p>
     </div>  
   </div>
-  <div class="row">
-  <div class="col-sm-4 justify-left">
+
+  <!-- Work Experience -->
+  <div class="row  mt-5  bg-light">
+  <div class="container-fluid  justify-left">
     <p></p>
-        <h3>Work Experience</h3>
-      <div class="container">
-        <div class="row">
+        <!-- <p style="text-align: center; font-size:26px; font-weight: bold; ">Work Experience </p> -->
+        <p class="h3 text-center ">Work Experience</p>
+        <div class="container-fluid ">
+        <div class="row mt-4">
             <div class="col">Job title 1
-                <p>Company name</p>
+                <!-- <p class="h6">Company name </p> -->
+                 <h6>Company name <small>| Jan 2020 - present</small></h6>
+                 <p>Description</p>    
             </div>
             <div class="col">Job title 2
-                <p>Company name</p>
+                <!-- <p class="h6">Company name</p> -->
+                 <h6>Company name <small>| Jan 2018 - Dec 2019</small></h6>
+                 <p>Description</p>    
             </div>
             <div class="w-100"></div>
             <div class="col">Job title 3
-                <p>Company name</p>
+                <!-- <p class="h6">Company name</p> -->
+                 <h6>Company name <small>| Jan 2016 - Dec 2017</small></h6>
+                 <p>Description</p>    
             </div>
             <div class="col">Job title 4
-                <p>Company name</p>
+                <!-- <p class="h6">Company name</p> -->
+                 <h6>Company name <small>| Jan 2014 - Dec 2015</small></h6>
+                 <p>Description</p>    
             </div>
-        </div>
+          
+          </div>
     </div>
   </div>
 </div>
-<h1 >Skills</h1>
- <div class="row">jglsdfkjökajfsfs</div>
+
+<!-- Skills -->
+<!-- <p style="text-align: center; font-size:26px; font-weight: bold; margin-top: 40px;">Skills </p> -->
+ <p class="h2 text-center mt-5">Skills</p>
+<div class="row">jglsdfkjökajfsfs</div>
  <div class="row">asöldfälasdfäl</div>
  <div class="row">sdälkfälaskfölaks</div>
 
-  <h3>Projects</h3>
+  <!-- Projects  -->
+ 
+ <h3>Projects</h3>
   <div class="row" shadow p-4 mb-4 bg-light>
   <div class="col-sm-3"><div class="card">
                 <div class="card-body">
@@ -118,7 +139,7 @@
 </div> 
 <p></p>
 
-
+<!-- Contact form -->
 <div class="container mt-3">
   <h2>Contact Me</h2>
   <form action="/action_page.php">
